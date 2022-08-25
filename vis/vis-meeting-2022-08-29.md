@@ -6,7 +6,7 @@
 
 ## First draft for the GUI layout
 
-![ParaView_mini_for_EAM_20220825.png](vis-meeting_2022-08-29_files/ParaView_mini_for_EAM_20220825.png)
+![ParaView_mini_for_EAM_20220825.png](vis-meeting-2022-08-29_files/ParaView_mini_for_EAM_20220825.png)
 
 ## Test data
 
