@@ -6,7 +6,7 @@
 
 ### Hui's notes from 9/13/2022
 
-* I uploaded a new sample output file `PD_1800_ad4fd8_ANN_climo_SE.nc` to [the directory](https://compy-dtn.pnl.gov/wanh895/ParaView_EAM/cubed_sphere/model_output_samples/). This file has more typical meteorological fields (like winds, temperature, clouds, aerosol-related quantities). Also, the values are annual averages, which can help us orient ourseleves.
+* I uploaded a new sample output file `PD_1800_ad4fd8_ANN_climo_SE.nc` to [the directory](https://compy-dtn.pnl.gov/wanh895/ParaView_EAM/cubed_sphere/model_output_samples/). This file has more typical meteorological fields (like winds, temperature, clouds, aerosol-related quantities). Also, the values are annual averages, which can help us orient ourselves.
 * I downloaded ParaView 5.11.0-RC1 to my MacBook Pro (OS is 10.15.7, Catalina) and used it on the new sample data. See the two screenshots below.
 
 #### Loading the data file in ParaView
