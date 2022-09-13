@@ -19,7 +19,7 @@ Based on this experience, I suggest that we create an EAM-specific UI. Below I'v
 
 * Connectivity file: [download from here](https://compy-dtn.pnl.gov/wanh895/ParaView_EAM/cubed_sphere/connectivity_files/)
 * EAM output files (NetCDF): [download from here](https://compy-dtn.pnl.gov/wanh895/ParaView_EAM/cubed_sphere/model_output_samples/)
-  * Update by Hui from 9/13/2022: I uploaded a new sample output file `PD_1800_ad4fd8_ANN_climo_SE.nc` to [the directory](https://compy-dtn.pnl.gov/wanh895/ParaView_EAM/cubed_sphere/model_output_samples/). This file has more typical meteorological fields (like winds, temperature, clouds, aerosol-related quantities). Also, the values are annual averages, which can help us orient ourseleves.
+  * Update by Hui from 9/13/2022: I uploaded a new sample output file `PD_1800_ad4fd8_ANN_climo_SE.nc` to [the directory](https://compy-dtn.pnl.gov/wanh895/ParaView_EAM/cubed_sphere/model_output_samples/). This file has more typical meteorological fields (like winds, temperature, clouds, aerosol-related quantities). Also, the values are annual averages, which can help us orient ourselves.
 
 ## Map projections
 
