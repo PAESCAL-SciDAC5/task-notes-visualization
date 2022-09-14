@@ -479,7 +479,6 @@ renderView2.EnvironmentalBG2 = [0.0, 0.0, 0.165]
 renderView2.UseGradientEnvironmentalBG = 0
 renderView2.UseTexturedEnvironmentalBG = 0
 renderView2.EnvironmentalBGTexture = None
-renderView2.AdditionalLights = None
 renderView2.OSPRayMaterialLibrary = materialLibrary1
 
 # init the 'GridAxes3DActor' selected for 'AxesGrid'
@@ -644,7 +643,6 @@ renderView3.EnvironmentalBG2 = [0.0, 0.0, 0.165]
 renderView3.UseGradientEnvironmentalBG = 0
 renderView3.UseTexturedEnvironmentalBG = 0
 renderView3.EnvironmentalBGTexture = None
-renderView3.AdditionalLights = None
 renderView3.OSPRayMaterialLibrary = materialLibrary1
 
 # init the 'GridAxes3DActor' selected for 'AxesGrid'
@@ -830,7 +828,6 @@ renderView4.EnvironmentalBG2 = [0.0, 0.0, 0.165]
 renderView4.UseGradientEnvironmentalBG = 0
 renderView4.UseTexturedEnvironmentalBG = 0
 renderView4.EnvironmentalBGTexture = None
-renderView4.AdditionalLights = None
 renderView4.OSPRayMaterialLibrary = materialLibrary1
 
 # init the 'GridAxes3DActor' selected for 'AxesGrid'
