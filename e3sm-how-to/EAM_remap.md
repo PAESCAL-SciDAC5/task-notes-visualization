@@ -23,7 +23,9 @@ After that, type `ncremap` or any other NCO command, and the basic usage will be
 ncremap -m ${map_file} -i ${input_file} -o ${output_file}
 ```
 
-Here `${map_file}` is the name of a file containing the pre-computed weights for doing the remapping. See the "_Remapping files_" section below. Example:
+Here `${map_file}` is the name of a file containing the pre-computed weights for doing the remapping. See the "_Remapping files_" section below. 
+
+Example:
 
 ```
 ncremap -m ../map_files/map_ne30np4_to_cmip6_180x360_aave.20181001.nc -i PD_1800_ad4fd8_ANN_climo_SE.nc -o PD_1800_ad4fd8_ANN_climo_latlon_180x360.nc
@@ -47,7 +49,9 @@ ncdump -h PD_1800_ad4fd8_ANN_climo_latlon_180x360.nc
 ncremap -v ${variable_list} -m ${map_file} -i ${input_file} -o ${output_file}
 ```
 
-Here `${variable_list}` is a list of variables to be remapped. Example:
+Here `${variable_list}` is a list of variables to be remapped. 
+
+Example:
 
 ```
 ncremap -v T,Q,FSNT -m map.nc -i in.nc -i out.nc
@@ -68,8 +72,8 @@ Where to find them:
 Which files to use:
 
 * For E3SMv1 output, look for file names like `map_ne*np4_to_*.nc`. For example,
-`/qfs/people/zender/data/maps/map_ne30np4_to_cmip6_180x360_aave.20181001.nc` is for converting data from the ne30 cubed sphere grid to 1-degree lon-lat grid
+`/qfs/people/zender/data/maps/map_ne30np4_to_cmip6_180x360_aave.20181001.nc` is for converting data from the ne30np4 cubed sphere grid to 1-degree lon-lat grid
 
-* For E3SMv2, look for file names like `map_ne*pg2_to_*.nc`, as the v2 atmosphere model uses a different grid (the physics `pg2` grid) for parameterizations.
+* For E3SMv2, look for file names like `map_ne*pg2_to_*.nc`, as the v2 atmosphere model uses the `pg2` variant of the cubed sphere mesh for the parameterizations (sub-grid models).
 
 
