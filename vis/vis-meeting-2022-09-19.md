@@ -1,6 +1,18 @@
 * When: 2022-09-19, 11:30am PT, 2:30pm ET
-* Who: 
+* Who: Hui, Berk, Chris, Brianna
 * Topic: Using ParaView on EAM output
+
+
+## Meeting notes
+
+* Bugfix for the ParaView crashes described in the pre-meeting notes below will be included in a new release candidate.
+* Chris converted ParaView traces (see the pre-meeting notes below) to simple trame apps.
+* Hui expressed the wish to have some enhancements in ParaView for displaying the z coordinate in the EAM output:
+  *  Instead of using layer indices, use the 1D variable `lev` as the vertical coordinate for the variables defined on midpoint layer and use `ilev` for the variables defined on interface layers.
+  *  The values of `lev` and `ilev` are the so-called norminal (air) pressure given in the unit of hPa. A typical range is [0, 1000]. It would be useful to have the options to show the vertical coordinate in either linear or logarithmic scale.
+  *  It would be helpful to change the aspect ratio when rendering the vertical coordinate so that an y-z cross-section has an aspect ratio close to 1:1.
+ 
+* Hui will provide examples showing how to remap EAM's output from the cubed sphere mesh to a latitude-longitude (lat-lon) mesh.
 
 ## Pre-meeting notes
 
