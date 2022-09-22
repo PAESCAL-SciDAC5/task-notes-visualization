@@ -29,12 +29,16 @@ Here `${map_file}` is the name of a file containing the pre-computed weights for
 ncremap -m ../map_files/map_ne30np4_to_cmip6_180x360_aave.20181001.nc -i PD_1800_ad4fd8_ANN_climo_SE.nc -o PD_1800_ad4fd8_ANN_climo_latlon_180x360.nc
 ```
 
-after which you can use
+- The map file `map_ne30np4_to_cmip6_180x360_aave.20181001.nc` can be downloaded from [here](https://compy-dtn.pnl.gov/wanh895/ParaView_EAM/cubed_sphere/map_files/)
+- The climo file `PD_1800_ad4fd8_ANN_climo_SE.nc` containing data on the cubed sphere mesh can be downloaded from [here](https://compy-dtn.pnl.gov/wanh895/ParaView_EAM/cubed_sphere/model_output_samples/)
+
+
+Afterwards, you can check the dimension sizes of the remapped fields using
 
 ```
 ncdump -h PD_1800_ad4fd8_ANN_climo_latlon_180x360.nc
 ```
-to see the dimension sizes of the remapped fields.
+(To use the `ncdump` command at LCFs, you might need to first `module load netcdf`.)
 
 
 ### Remap a subset of variables from a file
