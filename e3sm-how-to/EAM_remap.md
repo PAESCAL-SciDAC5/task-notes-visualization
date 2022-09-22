@@ -1,4 +1,4 @@
-# Remap EAM output between horizonal meshes
+# Remapping EAM output between horizonal meshes
 
 EAM's fluid dynamics solver and large-scale advection algorithm use, for the horizontal discretization, the cubed sphere mesh which is considered to be an unstructured mesh.
 
