@@ -1,4 +1,4 @@
-# PAESCAL task: visual analytics
+# PAESCAL task: visual analytics tools
 
 ## Objective
 
