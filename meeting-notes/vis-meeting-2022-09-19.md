@@ -6,7 +6,7 @@
 ## Meeting notes
 
 * Bugfix for the ParaView crashes described in the pre-meeting notes below will be included in a new release candidate.
-* Chris converted ParaView traces (see the pre-meeting notes below) to simple trame apps.
+* Chris converted ParaView traces (see the pre-meeting notes below) to simple trame apps. See [https://github.com/cjh1/eam](https://github.com/cjh1/eam)
 * Hui expressed the wish to have some enhancements in ParaView for displaying the z coordinate in the EAM output:
   *  Instead of using layer indices, use the 1D variable `lev` as the vertical coordinate for the variables defined on midpoint layer and use `ilev` for the variables defined on interface layers.
   *  The values of `lev` and `ilev` are the so-called norminal (air) pressure given in the unit of hPa. A typical range is [0, 1000]. It would be useful to have the options to show the vertical coordinate in either linear or logarithmic scale.
