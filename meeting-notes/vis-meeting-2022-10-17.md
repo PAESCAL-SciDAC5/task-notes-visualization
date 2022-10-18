@@ -9,7 +9,7 @@ Topic: Using ParaView on EAM output
 - Chris has fixed the problem in the CAM Reader. 
 - Need to flip the coordinate because `lev = 0` is the top of model atmosphere and `lev = 1000` is the Earth's surface.
 - Chris will add the option to show the vertical coordinate in `ln(lev)`.
-- Chris will prepare a `conda` environment to allow Hui to install and play with ParaView on her Mac laptop with the new fixes and updates.
+- Chris will prepare a `conda` package to allow Hui to install and play with ParaView on her Mac laptop with the new fixes and updates.
 
 ## Using `Z3` or `PMID` as vertical coordinate to visualize 3D variables.
 
