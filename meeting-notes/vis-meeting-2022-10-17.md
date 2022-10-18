@@ -1,6 +1,6 @@
-When: 2022-10-17, 11:30am PT, 2:30pm ET
-Who: Hui, Berk, Chris, Brianna
-Topic: Using ParaView on EAM output
+- When: 2022-10-17, 11:30am PT, 2:30pm ET
+- Who: Hui, Berk, Chris, Brianna
+- Topic: Using ParaView on EAM output
 
 # Meeting notes
 
