@@ -19,3 +19,5 @@ Hui created new connectivity files following instructions from Mark Taylor.
   - In SCRIP format with original variable names from Tempest: `TEMPEST_ne30pg2.scrip.nc`
   - In SCRIP format with revised variable names: `TEMPEST_ne30pg2.scrip.renamed.nc`
   - In Exodus format: `TEMEPST_NE30pg2.g`
+
+Do we need a new reader for ParaView?
