@@ -7,7 +7,7 @@ Develop and maintain visual analytics tools to help speed up PAESCAL's developme
 ## Current work
 
 - Identify and improve ParaView features that are most useful for analyzing EAM output
-- Update ParaView's CAM NetCDF reader to support the bi-grid configuration starting in EAMv2 (which uses different horizontal meshes for the resolved dynamics and parameterized physics) 
+- Write a new reader for ParaView to support the bi-grid configuration starting in EAMv2 (which uses different horizontal meshes for the resolved dynamics and parameterized physics) 
 - Develop a customized ParaView User Interface (UI) for EAM using the _trame_ framework
 
 ## Weekly meetings
