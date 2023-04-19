@@ -11,3 +11,7 @@
   - Via browser: https://portal.nersc.gov/cfs/m4359/huiwan/vis/EAMv2_dust_sample_data/
   - On NERSC’s Community File System: `/global/cfs/cdirs/m4359/www/huiwan/vis/EAMv2_dust_sample_data/`
 
+# EAMv2 output file with variables on both grids
+
+ - Via browser: https://portal.nersc.gov/cfs/m4359/huiwan/vis/EAMv2_bi_grid_sample_data/
+ - On NERSC’s Community File System: `/global/cfs/cdirs/m4359/www/huiwan/vis/EAMv2_bi_grid_sample_data/`
