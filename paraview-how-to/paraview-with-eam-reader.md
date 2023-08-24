@@ -5,7 +5,7 @@
 ```
 conda create --name eamviz python=3.10.0 ipython 
 conda activate eamviz
-conda install -c conda-forge paraview netcdf4
+conda install -c conda-forge paraview=5.11.1 netcdf4 libcxx=16.0.3
 ```
 
 ## Start the just-installed version of Paraview
