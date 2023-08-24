@@ -8,12 +8,13 @@ conda activate eamviz
 conda install -c conda-forge paraview=5.11.1 netcdf4 libcxx=16.0.3
 ```
 
-## Start the just-installed version of Paraview
+## Start Paraview
 
 ```
-which paraview
+conda activate eamviz
+paraview &
 ```
-and then execute that command (probably with an additional ` &` at the end).
+
 
 ## Import plugins for EAM
 
