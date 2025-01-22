@@ -6,10 +6,16 @@ For visualization and analysis, it is often useful to remap the data to a latitu
 
 ## Using NCO at DOE LCFs
 
-After logging into an LCF system or E3SM-dedicated computer (e.g., Cori at NERSC, Compy at PNNL), try 
+After logging into an LCF system or E3SM-dedicated computer (e.g., Compy at PNNL), try 
 
 ```
 module load nco
+```
+
+At NERSC, starting in AY25, NCO (and CDO, NCL, ncview) can be accessed after using
+
+```
+module load climate-utils
 ```
 
 After that, type `ncremap` or any other NCO command, and the basic usage will be shown in your terminal.
