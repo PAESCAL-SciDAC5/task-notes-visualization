@@ -31,7 +31,7 @@ source /global/common/software/e3sm/anaconda_envs/load_latest_e3sm_unified_pm-cp
 #------------------------------------------------------------------
 #  make SE template files
 #------------------------------------------------------------------
-wdir=~/mapping/grids
+wdir=/global/cfs/projectdirs/m4359/huiwan/vis/connectivity
 
 args=("$@")
 if [ "$#" -lt "1" ]; then
